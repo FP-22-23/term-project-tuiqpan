@@ -1,7 +1,7 @@
 # FIrst proyect of the first semester - Progamming Fundamentals
 Autor/a: IONEL TUDOR CRISTIAN LACATUS   uvus:HPD8118
 
-This proyect is meant to analyze the data of many bank account and of they owners, data which was published in Kaggle (https://www.kaggle.com/datasets/imranjanihindi78/bank-account). The original dataset has 10 columns, but there is not any bool class in any of them, so we switched the "Country code" column with a "Country_Is_Urban" columnm, in order to have a bool column. This bool columns which it was generated using the website "https://mockaroo.com/".
+This proyect was created in order to analyze many bank accounts owners to analyze the data of many bank account and of they owners, data which was published in Kaggle (https://www.kaggle.com/datasets/imranjanihindi78/bank-account). The original dataset has 10 columns, but there is not any bool class in any of them, so we switched the "Country code" column with a "Country_Is_Urban" columnm, in order to have a bool column. This bool columns which it was generated using the website "https://mockaroo.com/".
 
 ## Estructura de las carpetas del proyecto
 
