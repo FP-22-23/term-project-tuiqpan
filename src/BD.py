@@ -22,5 +22,4 @@ def lector(file):
 
     return register
 
-register = lector("./data/bank_account_sample.csv")
 
