@@ -1,7 +1,7 @@
 # FIrst proyect of the first semester - Progamming Fundamentals
 Autor/a: IONEL TUDOR CRISTIAN LACATUS   uvus:HPD8118
 
-This proyect was created in order to analyze many bank accounts owners data, data which can be found in the following Kaggle link "https://www.kaggle.com/datasets/imranjanihindi78/bank-account". The original dataset has 10 columns, but there is not any bool class in any of them, so a "Mortage" column was added in order to represent if the owner of their bank account is paying a mortage. This bool column was randomly generated using the website "https://mockaroo.com/". Also, it is important to know that we will use `BD` as an abbreviation of Bank Data.
+This proyect was created in order to analyze many bank accounts owners data, data which can be found in the following Kaggle link "https://www.kaggle.com/datasets/imranjanihindi78/bank-account". The original dataset has 10 columns, but there is not any bool class in any of them, so a "Mortage" column was added in order to represent if the owner of their bank account is paying a mortage. This bool column was randomly generated using the website "https://mockaroo.com/". Also, it is important to mark that we will use `BD` as an abbreviation of Bank Data.
 
 ## Structure of the folders of the proyect
 
