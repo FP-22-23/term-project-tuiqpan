@@ -7,7 +7,7 @@ This proyect was created in order to analyze many bank accounts owners data, dat
 
 * **/src**: Contains the different modules of this proyect using Python.
   * **BD.py**: Contains useful functions for the Data Analysis of different bank accounts.
-  * **BD_test.py**: Contains functionts to test the `poverty.py`functions.
+  * **BD_test.py**: Contains functions to test the `poverty.py`functions.
   * **parsers.py**: Contains functions for data parsing.
 * **/data**: Contains the dataset of the proyect.
     * **bank_account_sample**: File with the bank accounts owners data.
