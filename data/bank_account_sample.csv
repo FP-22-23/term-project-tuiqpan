@@ -1,4 +1,4 @@
-First_name,Last_name,Email,Address,Phone_Number,Date_Of_Birth,Balance,Credit_Card,Country_Code,Card_Type,Mortage
+First_name,Last_name,Email,Address,Phone_Number,Date_Of_Birth,Balance,Credit_Card,Country_Code,Card_Type,Mortgage
 Mignon,Pearmine,mpearmine0@guardian.co.uk,08 Carpenter Trail,120-254-1272,3/11/1978,$56146.48,5505144220275338,PH,mastercard,false
 Roxy,McGarvie,rmcgarvie1@vistaprint.com,5240 Milwaukee Hill,772-586-2201,6/30/1990,$111542.00,6334615689987450,FR,solo,false
 Bernardo,Lafond,blafond2@thetimes.co.uk,9 Blackbird Plaza,316-886-2934,11/9/1965,$9913.58,3553713092383077,ID,jcb,false
