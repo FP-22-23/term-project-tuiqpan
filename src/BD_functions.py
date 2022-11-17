@@ -5,7 +5,6 @@ from parsers import *
 
 #Let BD as an abbreviation of "Bank Data"
 
-
 Info = namedtuple("BD", "First_name,Last_name,Email,Address,Phone_Number,Date_Of_Birth,Balance,Credit_Card,Country_Code,Card_Type,Mortgage")
 
 def reader(file):
@@ -32,23 +31,21 @@ def different_country_codes(register):
     return sorted(set([r.Country_Code for r in register]))
 
 
-def compute_average_balance_of_a_country(register, Country_Code="US"):
+def compute_average_balance_of_a_country(register, Country_Code):
     res = [r.Balance for r in register if r.Country_Code==Country_Code]
     average = sum(res)/len(res)
     return "{:.2f}".format(average)
 
 
 #BLOCK II
-register = reader("./data/bank_account_sample.csv")
 def obtain_accounts_with_max_or_min_balance_of_a_country(register, Country_Code, function):
     res = [r for r in register if r.Country_Code==Country_Code]
     max_min = function(res, key = lambda r:r.Balance)
     res_1 = [r for r in res if r.Balance == max_min.Balance]
     return res_1
 
-print(obtain_accounts_with_max_or_min_balance_of_a_country(register, function=min, Country_Code="US"))
 
-def obtain_descending_sorted_bank_account_balances(register, Country_Code="FR"):
+def obtain_descending_sorted_bank_account_balances(register, Country_Code):
 
     res = [r for r in register if r.Country_Code==Country_Code]
     res.sort(key=lambda x:x.Balance, reverse=True)
