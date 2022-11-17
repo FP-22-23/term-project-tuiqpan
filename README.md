@@ -79,4 +79,4 @@ This module has the following parsing data functions:
 
 * **datetime_parsing(string)**: Given a string with format `%m/%d/%Y`, it returns an object of type date with the date that appears in the string.
 * **balance_parsing(string)**: Given a string with format `$______`, it returns an object of type float with the balance that appears in the string.
-* **bool_parsing(string)**: Given a string `true` or `false`, it returns an object of type bool.
+* **bool_parsing(string)**: Given a string `true` or `false`, it returns an object of type boolean.
