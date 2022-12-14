@@ -1,6 +1,6 @@
 from datetime import datetime
 from re import sub
-import json
+
 def datetime_parsing(string):
     return datetime.strptime(string,'%m/%d/%Y').date()
 
