@@ -99,7 +99,7 @@ def account_with_the_most_balance_of_each_country(register):
     Countries={r.Country for r in register}
     dicc={}
     for b in Countries:
-        list=sorted(("Position:", n. Position, "Full name:", n.Full_name, "Balance:", n.Balance) for n in register if n.Country==b)
+        list=sorted(("Position:", n.Position, "Full name:", n.Full_name, "Balance:", n.Balance) for n in register if n.Country==b)
         dicc[b]=list[:1]
     
     sortedbykey= {k: v for k, v in sorted(dicc.items())}
