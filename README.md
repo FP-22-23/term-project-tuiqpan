@@ -22,15 +22,13 @@ Also, it is important to mark that we will use `BD` as an abbreviation of Bank D
     
 ## Structure of the *dataset*
 
-In our dataset we can find 878 rows, each row represents different global accounts with their respective owners data, and if they are currently paying a mortgage. For each row there are 11 types of data, then, the dataset is made of 11 columns, with the following description: 
+In our dataset we can find 977 rows, each row represents different global accounts with their respective owners data, For each row there are 11 types of data, then, the dataset is made of 9 columns, with the following description: 
 
 
 * **Position**: Of type int, it is the the position in the dataset of the bank account owner.
 * **Full_name**: Of type str, it is the full name of the bank account owner.
 * **Gender**: Of type str, it is the the gender of the bank account owner.
 * **Date_Of_Birth**: Of type date, it is the date birth of the bank account owner.
-* **Email**: Of type str, it is the email of the bank account owner.
-* **Phone_Number**: Of type str, it is the phone number of the bank account owner.
 * **Country**: Of type str, it is the country where the bank account owner is currently living.
 * **Card_Type**: Of type str, it is the card type.
 * **Balance**: Of type float, it is the available balance in the bank account.
@@ -41,12 +39,11 @@ In our dataset we can find 878 rows, each row represents different global accoun
 
 To analyse the data of the dateset, we have defined the following named tuple:
 
-`Info = namedtuple("BD", "Position,Full_name,Gender,Date_Of_Birth,Email,Phone_Number,Country,Card_Type,Balance,Mortgage,Car_maker")`
+`Info = namedtuple("BD", "Position,Full_name,Gender,Date_Of_Birth,Country,Card_Type,Balance,Mortgage,Car_maker")`
 
 And the classes are:
 
-`Info(int(Position),str(Full_name), str(Gender), datetime_parsing(Date_Of_Birth), str(Email), str(Phone_Number), str(Country),
-            str(Card_Type), balance_parsing(Balance), bool_parsing(Mortgage), str(Car_maker))`
+`Info(int(Position),str(Full_name), str(Gender), datetime_parsing(Date_Of_Birth), str(Country), str(Card_Type), balance_parsing(Balance), bool_parsing(Mortgage), str(Car_maker)))`
 
 
 
@@ -66,7 +63,8 @@ The functions that that we can find in this module are used to get the different
 * **mortgages_per_country(register)**: This function obtains the quantity of mortgages that are being payed in each country
 * **most_popular_car_of_a_country(register, Country)**: This function obtains the most popular car of a given country
 * **date_of_birth_balance(register, Balance, Gender)**: This function returns a dictionary the percentage of people of a specified gender that have more than a given balance
-* **account_with_the_most_balance_of_each_country(register)**: This function obtains a dictionary with the accounts with the most balance of each countries.
+* **account_with_the_most_balance_of_each_country(register)**: This function obtains a dictionary with the accounts with the most balance of each countries
+* **cars_of_a_country(register, Country)**: This function counts the total number of different cars in a country
 
 
 ### BD_test_functions.py
@@ -85,6 +83,8 @@ In this proyect, we have defined the following test function that test the funct
 * **account_with_the_most_balance_of_each_country_test(register)**: This function tests the function 'account_with_the_most_balance_of_each_country'
 
 
+
+
 ### BD_test.py
 This module simply shows the results of the 'BD_test_functions' module, using a menu to choose between different options
 
@@ -96,6 +96,7 @@ This module plots some interesting functions of BD.py
 
 * **mortgages_per_country_plot(register, country)**: This function plots the information of some given countries from the 'mortgages_per_country' function
 * **date_of_birth_balance_plot(register, year, Balance, Gender)**: This function displays the data of some given dates of birth from the 'date_of_birth_balance' function
+* **three_most_popular_cars_of_a_country_plot(register, Country)**: This function displays the data of some given dates of birth from the 'cars_of_a_country' function
 
 ### Parsers
 This module has the following parsing data functions:
