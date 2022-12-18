@@ -2,10 +2,6 @@ import csv
 from collections import namedtuple, defaultdict, Counter
 from matplotlib import pyplot as plt
 from parsers import *
-import pycountry_convert as pc
-
-#If an error occurs with the "pycountry_convert" extension, you must intall it, typing 
-#"pip install pycountry_convert" in the terminal
 
 #Let BD as an abbreviation of "Bank Data"
 
