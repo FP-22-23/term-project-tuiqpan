@@ -22,7 +22,7 @@ Also, it is important to mark that we will use `BD` as an abbreviation of Bank D
     
 ## Structure of the *dataset*
 
-In our dataset we can find 977 rows, each row represents different global accounts with their respective owners data, For each row there are 11 types of data, then, the dataset is made of 11 columns, with the following description: 
+In our dataset we can find 977 rows, each row represents different global accounts with their respective owners data, For each row there are 11 types of data, then, the dataset is made of 9 columns, with the following description: 
 
 
 * **Position**: Of type int, it is the the position in the dataset of the bank account owner.
