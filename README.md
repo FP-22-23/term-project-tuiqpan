@@ -39,12 +39,11 @@ In our dataset we can find 977 rows, each row represents different global accoun
 
 To analyse the data of the dateset, we have defined the following named tuple:
 
-`Info = namedtuple("BD", "Position,Full_name,Gender,Date_Of_Birth,Email,Phone_Number,Country,Card_Type,Balance,Mortgage,Car_maker")`
+`Info = namedtuple("BD", "Position,Full_name,Gender,Date_Of_Birth,Country,Card_Type,Balance,Mortgage,Car_maker")`
 
 And the classes are:
 
-`Info(int(Position),str(Full_name), str(Gender), datetime_parsing(Date_Of_Birth), str(Email), str(Phone_Number), str(Country),
-            str(Card_Type), balance_parsing(Balance), bool_parsing(Mortgage), str(Car_maker))`
+`Info(int(Position),str(Full_name), str(Gender), datetime_parsing(Date_Of_Birth), str(Country), str(Card_Type), balance_parsing(Balance), bool_parsing(Mortgage), str(Car_maker)))`
 
 
 
