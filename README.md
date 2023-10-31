@@ -1,5 +1,4 @@
 # FIrst proyect of the first semester - Progamming Fundamentals
-Autor/a: IONEL TUDOR CRISTIAN LACATUS   uvus:HPD8118
 
 This proyect was created in order to analyze many bank accounts owners data, at first the dataset that we first used can be found in the following Kaggle link "https://www.kaggle.com/datasets/imranjanihindi78/bank-account", but this data set was not interesting at all, as we can find in it some irrelevant information as the credit number of the owner. Also the information of this dataset was not very credible at all.
 
